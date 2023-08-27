@@ -48,9 +48,9 @@ This project serves as a demonstration of deploying a machine learning model via
 
 ## Author Information
 
-- **Name:** Your Name
-- **GitHub:** [@your-username](https://github.com/your-username)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/your-name/)
+- Your Name
+- GitHub: https://github.com/rasmodev
+- LinkedIn: https://www.linkedin.com/in/rasmo-/
 
 ## Licensing
 
