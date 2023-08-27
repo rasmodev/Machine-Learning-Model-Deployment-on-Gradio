@@ -1,1 +1,3 @@
-gradio
+pandas
+streamlit
+numpy
