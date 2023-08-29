@@ -1,7 +1,5 @@
 # Churn Prediction Web App using Gradio
 
-![Churn Prediction Web App](app_screenshot.png)
-
 ## Overview
 
 This repository hosts a web application developed with Gradio that predicts customer churn for a telecommunications company. By inputting customer information like tenure, monthly charges, and total charges, the app provides predictions about the likelihood of a customer churning.
@@ -23,7 +21,7 @@ This repository hosts a web application developed with Gradio that predicts cust
 3. **Run the Gradio Interface:**
 
     ```
-    python app.py
+    gradio src/app.py
     ```
 
 4. **Access the App:**
@@ -36,7 +34,12 @@ This repository hosts a web application developed with Gradio that predicts cust
 
 ## App Interface
 
-![App Screenshot](app_screenshot.png)
+### Before Prediction
+
+![App Screenshot](https://github.com/rasmodev/Machine-Learning-Model-Deployment-on-Gradio/blob/main/Screenshots/Before_Pred.png)
+
+### After Prediction
+![App Screenshot](https://github.com/rasmodev/Machine-Learning-Model-Deployment-on-Gradio/blob/main/Screenshots/After_Pred.png)
 
 ## Model Details
 
