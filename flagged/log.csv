@@ -1,0 +1,8 @@
+gender,SeniorCitizen,Partner,Dependents,tenure,PhoneService,MultipleLines,InternetService,OnlineSecurity,OnlineBackup,DeviceProtection,TechSupport,StreamingTV,StreamingMovies,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,MonthlyCharges_TotalCharges_Ratio,AverageMonthlyCharges,output,flag,username,timestamp
+Male,Yes,No,Yes,50,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,50,50,1,3,,,,2023-08-11 11:36:35.995105
+Male,Yes,No,Yes,50,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,50,50,1,3,,,,2023-08-11 11:36:38.524877
+Male,Yes,No,Yes,50,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,50,50,1,3,,,,2023-08-11 11:38:08.817859
+Male,Yes,Yes,Yes,12,Yes,No,No,No,No,No,No,No,No,Month-to-month,No,Mailed check,12,34,0,0,,,,2023-08-14 04:05:17.011446
+,,,,,,,,,,,,,,,,,,,,,,,,2023-08-14 04:53:57.105489
+Female,No,Yes,Yes,13,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,One year,Yes,Electronic check,20,1200,1,10,[0],,,2023-08-14 09:08:54.733964
+Male,Yes,Yes,Yes,13,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,One year,Yes,Electronic check,10,1200,1,10,['Customer Not Churn'],,,2023-08-14 10:00:44.834964
