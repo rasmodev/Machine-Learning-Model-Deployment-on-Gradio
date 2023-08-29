@@ -49,7 +49,7 @@ def churn_prediction(gender, SeniorCitizen, Partner, Dependents, tenure, PhoneSe
     pred_cat_data = user_input_df.select_dtypes(include='object')
     encoded_pred_data = encoder.transform(categorical_imputer.transform(pred_cat_data))
 
-    # Convert the encoded sparse matrix to a DataFrame
+    # Convert the encoded data to a DataFrame
     encoded_pred_data_df = pd.DataFrame.sparse.from_spmatrix(encoded_pred_data,
                                                                   columns=encoder.get_feature_names_out(pred_cat_data.columns),
                                                                   index=pred_cat_data.index)
