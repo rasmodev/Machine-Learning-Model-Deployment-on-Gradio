@@ -99,9 +99,6 @@ input_components = [
     gr.Number(label='Average monthly charges for the customer.', minimum=0, maximum=120)
 ]
 
-# Photo
-image = gr.Image(filepath="https://miro.medium.com/v2/resize:fit:720/format:webp/0*NzaAMUVspYE0CaY5.png")
-
 # Create and launch the Gradio interface
 iface = gr.Interface(
     fn=churn_prediction,
@@ -111,8 +108,7 @@ iface = gr.Interface(
     description="This app predicts whether a customer is likely to churn (leave) a telecommunications company. It uses machine learning to analyze customer data, such as gender, age, tenure, and service usage. The app can be used by stakeholders and customers to make informed decisions about customer retention.",
     live=False,  
     share=True,
-    image=image
-
+    
 )
 
 iface.launch()
